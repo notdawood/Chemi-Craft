@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using System.Collections;
 using UnityEditor;
 
 
@@ -36,9 +35,8 @@ namespace TMPro.Examples
         {
             if (m_TextComponent == null)
             {
-                m_TextComponent = GetComponent<TMP_Text>();
-
-                if (m_TextComponent == null)
+                
+                if (!TryGetComponent<TMP_Text>(out m_TextComponent))
                     return;
             }
 
