@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061c120e74521fd47891f0eef320ebcb, type: 3}
+  m_Name: LevelThere Hard 2
+  m_EditorClassIdentifier: 
+  inputs:
+  - {fileID: 11400000, guid: e913b35c2f6e10c4cb09e58c002ae53c, type: 2}
+  - {fileID: 11400000, guid: 9a8b39825474ac242858a6bd85965944, type: 2}
+  outputs:
+  - {fileID: 11400000, guid: 29f514653f6a5da409b3c1b0ffd01936, type: 2}
+  - {fileID: 11400000, guid: fcfc43c056d291343952e92c0b3aa87c, type: 2}
+  result: {fileID: 32900000, guid: 7d2f3dc8a88eaf24c9fd57922b1790fe, type: 3}
+  questions:
+  - content: 'What is the formula of a carbon dioxide molecule? '
+    answers:
+    - CO
+    - 'CO2 '
+    - 'C2O '
+    - CO3
+    correctAnswer: 1
+  - content: ' What are the main elements that make up carbon dioxide? '
+    answers:
+    - 'Carbon and hydrogen '
+    - 'Carbon and oxygen '
+    - Oxygen and nitrogen
+    - 'Hydrogen and nitrogen '
+    correctAnswer: 1
+  - content: 'What is the common name for the emissions that cause global warming
+      by combining carbon with oxygen? '
+    answers:
+    - Carbonic nitrogen
+    - 'Greenhouse gas '
+    - 'Nitrous oxide '
+    - Carbon Dioxide
+    correctAnswer: 1
+  - content: ' What is the effect of the combination of carbon and oxygen on the
+      ozone layer?'
+    answers:
+    - Increased corrosion
+    - 'Strengthening the layer '
+    - 'Reduce size '
+    - Storm strengthening
+    correctAnswer: 1
+  - content: ' What is one of the main sources of carbon-oxygen emissions? '
+    answers:
+    - 'Volcanoes '
+    - 'the cars '
+    - Lakes
+    - 'the plants '
+    correctAnswer: 1

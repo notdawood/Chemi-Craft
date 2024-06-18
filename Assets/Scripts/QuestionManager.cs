@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using PlayFab;
 using PlayFab.ClientModels;
 using TMPro;
@@ -89,12 +90,12 @@ public class QuestionManager : MonoBehaviour
                     if (_gameOverContainer) _gameOverContainer.SetActive(true);
 
                     var request = new UpdatePlayerStatisticsRequest {
-                        Statistics = {
-                            new StatisticUpdate { 
+                        Statistics = new() {
+                            new() { 
                                 StatisticName = Prefs.StatScore,
                                 Value = _score
                             },
-                            new StatisticUpdate { 
+                            new() { 
                                 StatisticName = Prefs.StatHighScore,
                                 Value = _score
                             }

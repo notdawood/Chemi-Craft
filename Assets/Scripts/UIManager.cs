@@ -19,7 +19,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private AudioClip _correctSfx;
     [SerializeField] private AudioClip _wrongSfx;
     [SerializeField] private AudioClip _deselectSfx;
-    [SerializeField] private VideoPlayer _videoPlayer; 
+    [SerializeField] private VideoPlayer _videoPlayer;
+    [SerializeField] private HeartSystem _heartSystem; // Reference to the HeartSystem script
 
     private List<UIElement> _inputs = new List<UIElement>();
     private List<UIElement> _outputs = new List<UIElement>();
@@ -38,6 +39,7 @@ public class UIManager : MonoBehaviour
         if (_startTextContainer) _startTextContainer.SetActive(true);
         if (_timerTextContainer) _timerTextContainer.SetActive(false);
         if (_videoPlayer) _videoPlayer.loopPointReached += _ => OnVideoComplete();
+        if (_heartSystem) _heartSystem.gameObject.SetActive(false);
     }
 
     private void Start()
@@ -60,6 +62,7 @@ public class UIManager : MonoBehaviour
         if (_container) _container.SetActive(true);
         if (_startTextContainer) _startTextContainer.SetActive(false);
         if (_timerTextContainer) _timerTextContainer.SetActive(true);
+        if (_heartSystem) _heartSystem.gameObject.SetActive(true);
     }
 
     private void OnTimerUpdate() {
@@ -97,12 +100,10 @@ public class UIManager : MonoBehaviour
             e.Element = output;
             _outputs.Add(e);
         }
-
     }
 
     public void ToggleElement(Element element)
     {
-
         foreach (UIElement uiElement in _inputs)
         {
             Element e = uiElement.Element;
@@ -128,6 +129,7 @@ public class UIManager : MonoBehaviour
                     return;
                 } else {
                     Play(_wrongSfx);
+                    _heartSystem.WrongChoice(); // Deduct a heart for wrong choice
                     return;
                 }
             }
@@ -135,6 +137,7 @@ public class UIManager : MonoBehaviour
         }
 
         Play(_wrongSfx);
+        _heartSystem.WrongChoice(); // Deduct a heart for wrong choice
     }
 
     private void CheckWin()
@@ -157,9 +160,10 @@ public class UIManager : MonoBehaviour
         PauseMenu.CanPause = false;
         print("You Won!");
         Play(_winSfx);
+        if (_heartSystem) _heartSystem.gameObject.SetActive(false);
         PlayVideo();
         GameManager.Instance.LockCamera();
-        
+
         if (_container) _container.SetActive(false);
     }
 
@@ -187,6 +191,5 @@ public class UIManager : MonoBehaviour
         _source.clip = clip;
         _source.volume = volume;
         _source.Play();
-       
     }
 }

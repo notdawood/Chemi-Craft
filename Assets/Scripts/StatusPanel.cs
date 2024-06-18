@@ -24,16 +24,13 @@ public class StatusPanel : MonoBehaviour
                 Prefs.StatHighScore
             }
         };
-
-        Debug.Log($"GetPlayerStatistics {request.ToJson()}", this);
-
+        
         PlayFabClientAPI.GetPlayerStatistics(request, response => {
-            Debug.Log($"GetPlayerStatistics {response.Statistics}", this);
+            if (_score) _score.text = "None !";
+            if (_highScore) _highScore.text = "None !";
             
             foreach (StatisticValue stat in response.Statistics)
             {
-                Debug.Log($"GetPlayerStatistics {stat}", this);
-
                 if (_score && Prefs.StatScore == stat.StatisticName) {
                     _score.text = stat.Value.ToString();
                 }
