@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private AudioClip _correctSfx;
     [SerializeField] private AudioClip _wrongSfx;
     [SerializeField] private AudioClip _deselectSfx;
+    [SerializeField] private GameObject _videoContainer;
     [SerializeField] private VideoPlayer _videoPlayer;
     [SerializeField] private HeartSystem _heartSystem; // Reference to the HeartSystem script
 
@@ -158,6 +159,7 @@ public class UIManager : MonoBehaviour
 
         PauseMenu.GameIsPaused = true;
         PauseMenu.CanPause = false;
+        WorldElement.Interactable = false;
         print("You Won!");
         Play(_winSfx);
         if (_heartSystem) _heartSystem.gameObject.SetActive(false);
@@ -171,6 +173,7 @@ public class UIManager : MonoBehaviour
     {
         if (_videoPlayer != null)
         {
+            _videoContainer.SetActive(true);
             _videoPlayer.clip = GameManager.Instance.Equation.result;
             _videoPlayer.Play();
         }
@@ -178,6 +181,7 @@ public class UIManager : MonoBehaviour
 
     private void OnVideoComplete() {
         print("OnVideoComplete");
+        _videoContainer.SetActive(false);
         _videoPlayer.gameObject.SetActive(false);
         PauseMenu.GameIsPaused = false;
         PauseMenu.CanPause = true;

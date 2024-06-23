@@ -876,7 +876,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "C+O2\u2192co2"
+  m_text: "C+....\u2192co2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1792,8 +1792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -447.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -402.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &307438210
 MonoBehaviour:
@@ -1937,8 +1937,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -392.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -347.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &307892320
 MonoBehaviour:
@@ -2092,8 +2092,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -502.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -457.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367638520
 MonoBehaviour:
@@ -2407,8 +2407,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -502.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -457.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375095638
 MonoBehaviour:
@@ -3596,7 +3596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2Al+6Hcl\u21922AlCl3+3H2"
+  m_text: "2Al+6....\u21922AlCl3+3H2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3623,7 +3623,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.7
+  m_fontSize: 72
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3709,8 +3709,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -557.2416}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -512.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &494123578
 MonoBehaviour:
@@ -4885,8 +4885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -502.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -457.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687695523
 MonoBehaviour:
@@ -7753,7 +7753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Na2Co3+2Hcl\u21922NaCl+H2o+Co2"
+  m_text: "....+2....\u21922NaCl+H2o+Co2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7780,7 +7780,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 49
+  m_fontSize: 64.95
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7887,7 +7887,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "NH3+HCL\u2192NH4cl"
+  m_text: "....+....\u2192NH4cl"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8134,8 +8134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -612.2416}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -567.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &957537998
 MonoBehaviour:
@@ -9223,8 +9223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -502.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -457.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1094975722
 MonoBehaviour:
@@ -9389,7 +9389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "NaOH+HCL\u2192NaCl+H2o"
+  m_text: "....+....\u2192NaCl+H2o"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9416,7 +9416,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 66.95
+  m_fontSize: 72
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -12035,7 +12035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2H2o\u21922H2+O2"
+  m_text: "2....\u21922H2+O2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13838,7 +13838,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "NaCl+AgNo3\u2192NaNo3+AgCl"
+  m_text: "....+....\u2192NaNo3+AgCl"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13865,7 +13865,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.45
+  m_fontSize: 72
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13977,7 +13977,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mg+2HCl\u2192MgCl2+H2"
+  m_text: "....+2....\u2192MgCl2+H2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14630,7 +14630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Zn+2Hcl\u2192ZnCl2+H2"
+  m_text: "....+2Hcl\u2192ZnCl2+H2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14764,7 +14764,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Co2+H2O\u2192H2Co3"
+  m_text: "....+....\u2192H2Co3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16229,8 +16229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -612.2416}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -567.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1904618675
 MonoBehaviour:
@@ -16890,7 +16890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mg+CuSo4\u2192MgSo4+Cu"
+  m_text: "Mg+....\u2192MgSo4+Cu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16917,7 +16917,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 66.7
+  m_fontSize: 72
   m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -17013,8 +17013,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -392.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -347.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098179921
 MonoBehaviour:
@@ -17284,8 +17284,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 405.8691, y: -502.24158}
-  m_SizeDelta: {x: 811.7382, y: 100}
+  m_AnchoredPosition: {x: 441.88007, y: -457.85614}
+  m_SizeDelta: {x: 883.76013, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2140413140
 MonoBehaviour:

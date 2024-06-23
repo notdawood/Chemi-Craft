@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class WorldElement : MonoBehaviour
 {
+
+    public static bool Interactable = true;
+
     [SerializeField] private Element _element;
     [SerializeField] private GameObject _display;
     [SerializeField] private TextMeshProUGUI _text;
@@ -10,13 +13,14 @@ public class WorldElement : MonoBehaviour
 
     private void Awake()
     {
+        Interactable = true;
         if (_text) _text.text = _element.name;
         if (_display) _display.SetActive(false);
     }
 
     private void OnMouseEnter()
     {
-        if (!PauseMenu.GameIsPaused)
+        if (Interactable && !PauseMenu.GameIsPaused)
         {
             print($"OnMouseEnter {name}");
             if (_display) _display.SetActive(true);
@@ -25,7 +29,7 @@ public class WorldElement : MonoBehaviour
 
     private void OnMouseExit()
     {
-        if (!PauseMenu.GameIsPaused)
+        if (Interactable && !PauseMenu.GameIsPaused)
         {
             print($"OnMouseExit {name}");
             if (_display) _display.SetActive(false);
@@ -34,7 +38,7 @@ public class WorldElement : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (!PauseMenu.GameIsPaused)
+        if (Interactable && !PauseMenu.GameIsPaused)
         {
             print($"OnMouseUp {name}");
             UIManager.Instance.ToggleElement(_element);
