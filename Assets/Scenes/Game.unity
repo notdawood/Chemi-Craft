@@ -19248,7 +19248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &852855982
 Transform:
   m_ObjectHideFlags: 0
@@ -25077,6 +25077,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3889b85a84c068d4684a0a0f785c65f8, type: 3}
       propertyPath: m_Name
       value: Gordon
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3889b85a84c068d4684a0a0f785c65f8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1630794972795428178, guid: 3889b85a84c068d4684a0a0f785c65f8, type: 3}
       propertyPath: m_Materials.Array.data[0]

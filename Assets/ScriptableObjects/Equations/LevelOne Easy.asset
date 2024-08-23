@@ -25,7 +25,7 @@ MonoBehaviour:
     - Magnesium sulphate (MgSO4)
     - Magnesium chloride (MgCl2)
     - Magnesium nitrate (Mg(NO3)2)
-    correctAnswer: 1
+    correctAnswer: 0
   - content: 'What is the form of the substance resulting from the reaction of magnesium
       with oxygen? '
     answers:
@@ -33,7 +33,7 @@ MonoBehaviour:
     - Liquid
     - Solid
     - No case
-    correctAnswer: 1
+    correctAnswer: 2
   - content: What is the color of the substance resulting from the reaction of magnesium
       with oxygen
     answers:
@@ -41,14 +41,14 @@ MonoBehaviour:
     - 'Black '
     - 'red '
     - 'Green '
-    correctAnswer: 1
+    correctAnswer: 0
   - content: What is the mass distribution in the reaction of magnesium with oxygen
     answers:
     - 'The mass changes '
     - 'Mass increases '
     - 'Mass decreases '
     - 'The mass remains constant '
-    correctAnswer: 1
+    correctAnswer: 3
   - content: What is the geometric shape of the magnesium molecules during their
       reaction with oxygen?
     answers:
@@ -56,4 +56,4 @@ MonoBehaviour:
     - early
     - 'cube '
     - Magnesium nitrate (Mg(NO3)2)
-    correctAnswer: 1
+    correctAnswer: 3
