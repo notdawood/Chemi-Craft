@@ -14,6 +14,10 @@ Welcome to **Chemi-Craft**! This is a 3D educational game built in Unity that al
 3. **Quiz Section:**
    - After watching the video, the player is presented with at least 5 questions related to the equation. The questions are designed to test the player's understanding of the chemical process and the elements involved.
 
+4. **PlayFab Integration:**
+   - **Login and Registration:** Chemi-Craft uses PlayFab servers to manage player accounts. Players can register and log in securely through the game.
+   - **Scoreboard:** PlayFab also powers the game's scoreboard, allowing players to track their progress and compare scores with others globally.
+
 ## How to Add New Elements
 
 If your equation involves elements that are not part of the initial 17 elements in the game, follow these steps:
@@ -37,5 +41,10 @@ If your equation involves elements that are not part of the initial 17 elements 
 
 If you'd like to contribute to Chemi-Craft, whether by adding new elements, improving gameplay, or refining the user experience, feel free to submit a pull request. Please ensure that any new content is educational and enhances the player's learning experience.
 
+## License
+
+Chemi-Craft is licensed under a permissive license that allows everyone to use it anytime, anywhere. You are free to modify, distribute, and use the game in any way you see fit.
+
+---
 
 Enjoy exploring the world of chemistry in 3D with Chemi-Craft!
